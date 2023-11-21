@@ -4,9 +4,9 @@ Una nota viene considerata completata se tutti i todo presenti hanno
 il flag done impostato a true.*/
 
  function firstUncompletedNote(notes) {
-  return firstUncompletedNote.map (todo => firstUncompletedNote.todos === false)
+  return notes.find(note => note.todos.some(todo => todo.done == false))
+  
 }
-SVGAnimatedNumberList.foreach(firstUncompletedNote)
 
 const notes = [
   {
@@ -80,5 +80,5 @@ const notes = [
 ]
 
 const noteInProgress = firstUncompletedNote(notes);
-console.log('All notes: ', notes); 
+//console.log('All notes: ', notes); 
 console.log('First note in progress: ', noteInProgress);
