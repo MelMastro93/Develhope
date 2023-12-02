@@ -7,9 +7,9 @@ const obj = { name: "John", age: 30 };
 
 function fetchDataFromAPI(callback) {
 
-  callback(obj)
-
   setTimeout(() => {
+
+    callback(obj);
 
   }, 2000)
 }
