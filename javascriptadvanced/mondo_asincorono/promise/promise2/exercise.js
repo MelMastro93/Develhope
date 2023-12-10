@@ -11,16 +11,13 @@ function fetchUserData() {
 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-
-            if (user = user) {
+            if(user.id === 1 && user.name === "John"){
                 resolve(user);
-
             } else {
-                reject(new Error("not John"))
-
+                reject(new Error("Not john"))
             }
-        }, 1000)
-
+                
+        }, 2000)
     })
 }
 const printUser = fetchUserData().then((data) => {
@@ -34,20 +31,16 @@ const printUser = fetchUserData().then((data) => {
 function fetchUserPosts(userId, userName) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-
-            if (userId === user.id && userName === user.name) {
+            if (user.id === 1 && user.name === "John") {
                 resolve(posts);
 
             } else {
-                reject(new Error("Error"))
-
+                reject(new Error("Something is Wrong"));
             }
-        }, 2000)
+        },5000)
 
     })
-
-
-}
+};
 
 const printPost = fetchUserPosts().then((data) => {
 
