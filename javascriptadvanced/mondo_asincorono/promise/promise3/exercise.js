@@ -5,7 +5,7 @@
 function promiseDelay(message) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (message !== typeof " ") {
+            if (typeof message === "string" ) {
                 resolve("ok")
 
             } else reject("ko")
