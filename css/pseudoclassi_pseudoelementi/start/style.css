@@ -1,0 +1,38 @@
+
+
+blockquote {
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+}
+blockquote:after {
+	content: close-quote;
+}
+blockquote:before {
+	content: open-quote;
+}
+
+
+a {
+	color: darkred;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(195, 54, 84);
+	
+  }
+  a:visited {
+	color: blueviolet;
+  }
+
+  p:first-of-type::first-letter {
+	content: "Lorem ipsum";
+	float: left;
+	color: darkred;
+	border: 3px ridge darkgoldenrod;
+	padding: 16px;
+	background-color: gold;
+	margin: 8px;
+}
+
+
