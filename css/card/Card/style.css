@@ -1,0 +1,9 @@
+@import url(general.css);
+
+.items{
+    color: blueviolet;
+}
+
+.items:hover{
+    border-radius: 10px;
+}
