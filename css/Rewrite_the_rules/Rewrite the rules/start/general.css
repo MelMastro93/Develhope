@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #ffcfea;
+    --secondary-color: black;
+    --link-hover: #28b9c1;
+  }
+  
+  body {
+    margin: 10px;
+    padding: 10px;
+  }
+

@@ -1,0 +1,20 @@
+@import url(general.css);
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    box-shadow: 0px 3px 30px rgb(249, 248, 248);
+}
+
+.ball:hover {
+    background-color: var(--link-hover);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
