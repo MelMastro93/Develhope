@@ -8,16 +8,12 @@
 
 .card-border{
     background-color: #f5deeb;
+    border: 1px solid grey;
 }
 
 section{
     color: rgb(246, 133, 244);
 }
-
-body {
-    margin: 0;
-    padding: 0;
-  }
   
 
 div {
@@ -51,7 +47,7 @@ a:hover {
 }
 
 img {
-    display: inline-block;
+    
     border-radius: var(--border-radius);
     box-shadow: rgba(100, 100, 100);
   }
