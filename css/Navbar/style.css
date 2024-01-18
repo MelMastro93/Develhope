@@ -13,13 +13,13 @@ nav {
 .first-section{
 
     display: flex;
-    justify-content: space-between;
     
 }
 
 li{
     padding-left: 30px;
 }
+
 
 ul {
 
