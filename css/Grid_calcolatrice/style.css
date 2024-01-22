@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    grid-auto-rows: 90px;
+    grid-auto-columns: 130px; 
+      
+}
+.element-calc{
+    background-color: rgb(185, 201, 201);
+}
+
+.output{
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    grid-column: 1/5;
+    color: white;
+    background-color: rgb(41, 66, 66);
+    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.equal{
+    grid-column: 4/4;
+    grid-row: 3/7;
+    background-color: rgb(247, 103, 0);
+    border-bottom-right-radius: 10px;
+    border-color: rgb(193, 221, 238);
+}
+
+div, button{
+    font-size: 30px;
+    font-weight: bold;
+    border-color: rgb(193, 221, 238); 
+}
+
+.zero {
+    border-bottom-left-radius: 10px;
+    border-color: rgb(193, 221, 238);
+}
+
+
+
